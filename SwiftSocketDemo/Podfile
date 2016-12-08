@@ -1,0 +1,21 @@
+platform :ios, '8.0'
+
+use_frameworks!
+
+target "SwiftSocketDemo" do
+    
+       pod 'JKit'
+       pod 'ReactiveCocoa', '~> 2.5'
+       pod 'IQKeyboardManagerSwift'
+       pod 'AFNetworking'
+       pod 'Masonry'
+       pod 'MJExtension'
+       pod 'SDWebImage'
+       pod 'QBImagePickerController', '~> 2.6.0'
+       pod 'SVProgressHUD'
+       pod 'FMDB'
+       pod 'MJRefresh'
+       pod 'MWPhotoBrowser'
+#       pod 'VoiceConvert'
+#       pod 'mp3lame-for-ios'
+end
